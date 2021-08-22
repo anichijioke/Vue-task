@@ -40,22 +40,22 @@
 
         <div class="row mt-3 border-bottom py-2">
             <div class="col-md-12">
-                <a class="mr-3 text-decoration-none text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 0 }"
+                <a class="mr-3 text-decoration-none font-weight: 500 text-gray text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 0 }"
                     @click="() => currentTab = 0"
                 >
                     All
                 </a>
-                <a class="mx-3 text-decoration-none text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 1 }"
+                <a class="mx-3 text-decoration-none font-weight: 500 text-gray text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 1 }"
                     @click="() => currentTab = 1"
                 >
                     Succeeded
                 </a>
-                <a class="mx-3 text-decoration-none text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 2 }"
+                <a class="mx-3 text-decoration-none font-weight: 500 text-gray text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 2 }"
                     @click="() => currentTab = 2"
                 >
                     Refunded
                 </a>
-                <a class="mx-3 text-decoration-none text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 3 }"
+                <a class="mx-3 text-decoration-none font-weight: 500 text-gray text-dark cursor-pointer" :class="{ 'active-tab': currentTab === 3 }"
                     @click="() => currentTab = 3"
                 >
                     Uncaptured
@@ -68,16 +68,16 @@
                 <input type="checkbox" name="" id="">
             </div>
             <div class="col-md-3">
-                <span class="text-uppercase">Amount</span>
+                <span class="text-uppercase font-weight-700">Amount</span>
             </div>
             <div class="col-md-4">
-                <span class="text-uppercase">Description</span>
+                <span class="text-uppercase font-weight-700">Description</span>
             </div>
             <div class="col-md-2">
-                <span class="text-uppercase">Customer</span>
+                <span class="text-uppercase font-weight-700">Customer</span>
             </div>
             <div class="col-md-2">
-                <span class="text-uppercase">Date</span>
+                <span class="text-uppercase font-weight-700">Date</span>
             </div>
         </div>
 
@@ -187,6 +187,10 @@ export default defineComponent({
 
     .cursor-pointer {
         cursor: pointer;
+    }
+
+    .font-weight-700 {
+        font-weight: 600;
     }
 
     .success-payment {
