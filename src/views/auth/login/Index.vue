@@ -1,19 +1,25 @@
 <template>
     <div class="container-fluid over-bg">
         <div class="row">
-            <div class="col-md-2">
-                <img src="../../../assets/purple-bar.svg" class="img-width right-bar" alt="">
+            <div class="col-md-12" style="position: absolute; top: 170px;">
+                <!-- <img src="../../../assets/purple-bar.svg" class="img-width right-bar" alt=""> -->
+                <svg width="1440" height="384" viewBox="0 0 1440 384" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%">
+                    <path d="M21 351.5V311.5L180 278V318L21 351.5Z" fill="#81E9FF"/>
+                    <path d="M0 384V344.5L314.5 277V317L0 384Z" fill="#0C00FA" fill-opacity="0.5"/>
+                    <path d="M1126 107V67.5L1440.5 0V40L1126 107Z" fill="#0C00FA" fill-opacity="0.5"/>
+                </svg>
+
             </div>
         </div>
         <div class="row">
             <div class="col-md-2">
-                <img src="../../../assets/blue-bar.svg" class="img-width blue-right-bar" alt="">
+                <!-- <img src="../../../assets/blue-bar.svg" class="img-width blue-right-bar" alt=""> -->
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-2">
-                <img src="../../../assets/purple-bar.svg" class="img-width left-bar" alt="">
+                <!-- <img src="../../../assets/purple-bar.svg" class="img-width left-bar" alt=""> -->
             </div>
         </div>
         <div class="row" style="height: 100vh">
